@@ -55,11 +55,11 @@ Using the design file, build out your User Interface. Before you start, look thr
 **STEP 1**
 
 - You have been given a Data.js file that contains some arrays.
-- Find a way to bring (import) the data into the necessary files, but do not change the data.
-- Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
+X- Find a way to bring (import) the data into the necessary files, but do not change the data.
+X- Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
 
 **Step 2**
-Add the data to state like this:
+X-Add the data to state like this:
 
 ```js
 import { numbers } from '../path/to/data';
@@ -72,16 +72,16 @@ const [numberState, setNumberState] = useState(numbers);
 
 **Step 3**
 
-- Map over the data and dynamically render components for each piece of data in the arrays.
-- You will need to import the component that you'll render in the map function.
+- X-Map over the data and dynamically render components for each piece of data in the arrays.
+- X-You will need to import the component that you'll render in the map function.
 
 **STEP 4**
 
-- Import the wrapper button components into `App.js`
-- Import the display components into `App.js` as well
-- Compose all the components inside the `App` component to get your calculator rendering on the DOM
-- In each component, start designing things to match the design file
-- Style your project using any of the techniques from the module
+- X-Import the wrapper button components into `App.js`
+- X-Import the display components into `App.js` as well
+- X-Compose all the components inside the `App` component to get your calculator rendering on the DOM
+- X-In each component, start designing things to match the design file
+- X-Style your project using any of the techniques from the module
 - Don't forget about className vs class on your JSX elements!!
 
 **STEP 5 - (STRETCH)**
@@ -121,3 +121,4 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 - Finish the logic so the calculator is fully functional. Feel free to change the array data, or lose it entirely, as you see fit.
 - Add some icons to improve the operator characters aesthetics. Research any icon/font library and implement it into your project.
 - Convert your CSS styling to use Sass/Scss
+NM

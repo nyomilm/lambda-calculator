@@ -1,5 +1,7 @@
 import React from "react";
+//import logo from "../../DisplayComponents/Logo"
 
-const Display = () => {
-  return <div>{/* Display any props data here */}</div>;
+const Display = (props) => {
+  return <div className="display">{props.current}</div>;
 };
+export default Display;
