@@ -43,3 +43,8 @@
     margin: 5px;
 }
 
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
